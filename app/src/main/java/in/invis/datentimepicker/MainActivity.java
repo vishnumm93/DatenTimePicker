@@ -79,6 +79,10 @@ public class MainActivity extends AppCompatActivity {
 
                                     txtdate.setText(txtdate.getText().toString() + "\n" + formatter.format(date).toString());
 
+                                    formatter = new SimpleDateFormat("yyyy-MM-dd");
+
+                                    txtdate.setText(txtdate.getText().toString() + "\n" + formatter.format(date).toString());
+
                                 } catch (Exception ex) {
 
                                 }
